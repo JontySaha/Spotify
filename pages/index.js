@@ -2,8 +2,10 @@ import Sidebar from "@/Components/Sidebar";
 
 export default function Home() {
   return (
-    <div>
-      <Sidebar/>
+    <div className="bg-black h-screen overflow-hidden">
+      <main>
+        <Sidebar />
+      </main>
     </div>
-  )
+  );
 }
